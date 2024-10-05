@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     
+    
 }
 .nav1{
     flex: 1;
@@ -256,8 +257,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    line-height: -1;
-   
+    line-height: 0;
 }
 #p8{
     flex: 1;
@@ -265,9 +265,7 @@ a{
     font-weight: 500;
     font-family: sans-serif;
     display: flex;
-    padding-left: 30px;
-    
-    
+    padding-left: 30px;  
 }
 #p9{
     flex: 1;
@@ -277,7 +275,6 @@ a{
 }
 #p10{
     flex: 1;
-    
     font-size: 1.2em;
     font-weight: 500;
     font-family: sans-serif;
@@ -288,29 +285,325 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    line-height: 0;
 }
 #p11{
     flex: 1;
-    font-size: 1.1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: gray;
+}
+#p12{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: gray;
+}
+#p13{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.l2{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 0;
+}
+#p14{
+    flex: 1;
+    font-size: 1em;
     font-weight: 500;
     font-family: sans-serif;
     padding-left: 30px;
 }
-#p12{
+#p15{
     flex: 1;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
     font-family: sans-serif;
 }
-#p13{
+#p16{
     flex: 1;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
     font-family: sans-serif;
+    color: gray;
 }
+.l3{
 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#p17{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 500px;
+}
+.mh{
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 545;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+.m{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 800;
+    height: 400px;
+    width: 100%;
+}
+.m1{
+    flex: 1;
+    background-image: url("NIKE+CORTEZ.png");
+    background-color: #eeeeee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 400px;
+    margin-right: 10px;
+}
+.m2{
+    flex: 1;
+    background-image: url("AIR+FORCE+1+\'07+FRESH.png");
+    background-color: #eeeeee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 400px;
+    margin-right: 10px;
+}
+.m3{
+    flex: 1;
+    background-image: url("KILLSHOT+2+LEATHER\ \(1\).png");
+    background-color: #eeeeee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 400px;
+    margin-right: 10px;
+}
+.m4{
+    flex: 1;
+    background-image: url("NIKE+FIELD+GENERAL+82+SP.png");
+    background-color: #eeeeee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 400px;
+    margin-right: 10px;
+}
+.nh{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+.nh1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1550px;
+}
+.n{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.n1{
+    background-image: url("running.jpg");
+    width: 95%;
+    height: 400px;
+    background-size: cover;
+}
+.n2{
+    background-image: url("footballnike.jpg");
+    width: 95%;
+    height: 400px;
+    background-size: cover;
+}
+.n3{
+    background-image: url("basketball.jpg");
+    width: 95%;
+    height: 400px;
+    background-size: cover;
+}
+#btn2{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+#btn3{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+#btn4{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+.oh{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+.oh1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1550px;
+}
+.o{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.o1{
+    background-image: url("nike-membership.jpg");
+    width: 95%;
+    height: 700px;
+    background-size: cover;
+}
+.o2{
+    background-image: url("nikememb2.jpg");
+    width: 95%;
+    height: 700px;
+    background-size: cover;
+}
+.o3{
+    background-image: url("nike-3.jpg");
+    width: 95%;
+    height: 700px;
+    background-size: cover;
+}
+#p18{
+    padding-top: 500px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
 
+}
+#p19{
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    font-weight: 550;
 
+}
+#btn5{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-left: 30px;
+}
+#p20{
+    padding-top: 500px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
 
+}
+#p21{
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    font-weight: 550;
 
+}
+#btn6{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-left: 30px;
+}
+#p22{
+    padding-top: 500px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+
+}
+#p23{
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    font-weight: 550;
+
+}
+#btn7{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-left: 30px;
+}
+.p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
