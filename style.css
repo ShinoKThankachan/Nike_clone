@@ -32,7 +32,8 @@
 .logo1{
     height: 30px;
     width: 30px;
-    padding-right: 760px;
+    margin-right: 760px;
+    
 }
 .main{
     width: 100%;
@@ -57,7 +58,7 @@ a{
 .logo{
     width: 60px;
     height: 25px;
-    padding-right: 350px;
+    margin-right: 350px;
     
 }
 .a{
@@ -104,6 +105,7 @@ a{
 
 #p3{
     font-weight: 700;
+    line-height: 1;
 
    
 }
@@ -114,13 +116,14 @@ a{
     font-size: 5.3em;
     letter-spacing: -1.3px;
     font-family: sans-serif;
-    line-height: 0;
+    line-height: 1;
 }
 #p4{
     font-weight: 500;
     font-size: medium;
     word-spacing: 1.2;
     font-family: sans-serif;
+    line-height: 1;
 }
 #btn1{
     width: 100px;
@@ -131,6 +134,7 @@ a{
     
     
 }
+
 .e{
     display: flex;
     justify-content: center;
@@ -257,7 +261,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    line-height: 0;
+    line-height: 1;
 }
 #p8{
     flex: 1;
@@ -285,7 +289,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    line-height: 0;
+    line-height: 1;
 }
 #p11{
     flex: 1;
@@ -313,7 +317,7 @@ a{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        line-height: 0;
+        line-height: 1;
 }
 #p14{
     flex: 1;
@@ -604,6 +608,91 @@ a{
 }
 .p{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 8fr;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 300px;
+    line-height: 1;
+}
+.p th{
+    font-size: 1.7em;
+    font-weight: 500;
+    padding-right: 300px;
+    
+}
+.p td{
+    font-size: 1.1em;
+    line-height: 1;
+    font-family: sans-serif;
+    color: gray;
+    
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: white;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
 }
 
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-legal{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.footer-base{
+    display: flex;
+    justify-content: space-evenly;
+}
