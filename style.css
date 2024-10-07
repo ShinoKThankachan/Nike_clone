@@ -654,7 +654,7 @@ ul{
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding:0 15px;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -696,3 +696,14 @@ ul{
     display: flex;
     justify-content: space-evenly;
 }
+@media (min-width:321px) {
+    .main{
+        .icon3{
+            display: none;
+        }
+        .icon4{
+            display: none;
+        }
+    }
+}
+
