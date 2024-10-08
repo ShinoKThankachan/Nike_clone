@@ -105,7 +105,7 @@ a{
 
 #p3{
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.5;
 
    
 }
@@ -116,14 +116,18 @@ a{
     font-size: 5.3em;
     letter-spacing: -1.3px;
     font-family: sans-serif;
-    line-height: 1;
+    line-height: 1.5;
 }
 #p4{
     font-weight: 500;
     font-size: medium;
     word-spacing: 1.2;
     font-family: sans-serif;
-    line-height: 1;
+    line-height: 1.5;
+}
+.e{
+    display: flex;
+    justify-content: center;
 }
 #btn1{
     width: 100px;
@@ -134,8 +138,562 @@ a{
     
     
 }
-.c3{
+.f{
     display: grid;
-    grid-template-columns: 5fr 3fr 4fr;
+    grid-template-columns: 6fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.f1{
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 540;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+.g{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img1{
+    width: 600px;
+    height: 650px;
+}
+.img2{
+    width: 600px;
+    height: 650px;
+}
+.img3{
+    width: 550px;
+    height: 650px;
+}
+.h{
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 3fr;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#h2{
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-right: 100px;
+}
+#h3{
+    padding-left: 70px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+#h4{
+    padding-right: 150px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.j{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    align-items: center;
 
 }
+.j p{
+    font-family: sans-serif;
+    font-size: 2.1em;
+    font-weight: 400;
+    margin-left: 35px;   
+}
+.j1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+.k{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#img4{
+    width: 600px;
+    height: 600px;
+    margin-right: 10px;
+}
+#img5{
+    width: 600px;
+    height: 600px;
+    margin-right: 10px;
+}
+#img6{
+    width: 600px;
+    height: 600px;
+}
+.l{
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1;
+}
+#p8{
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: 520;
+    font-family: sans-serif;
+    display: flex;
+    padding-left: 30px; 
+    line-height: 1.5; 
+}
+#p9{
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: 520;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+#p10{
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: 520;
+    font-family: sans-serif;
+    color: black;
+    line-height: 1.5;
+}
+.l1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1;
+}
+#p11{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: gray;
+    line-height: 1.5;
+}
+#p12{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 1.5;
+}
+#p13{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 1.5;
+}
+.l2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 1;
+}
+#p14{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+#p15{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+#p16{
+    flex: 1;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+    
+}
+.nh{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+.nh1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1550px;
+}
+.n{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.n1{
+    background-image: url("footballnike.jpg");
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+}
+.n2{
+    background-image: url("running.jpg");
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+}
+.n3{
+    background-image: url("nike-training-club-app-home-workouts-more.jpg");
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+}
+#btn2{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+#btn3{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+#btn4{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-top: 350px;
+    margin-left: 30px;
+}
+.q{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    align-items: center;
+
+}
+.q p{
+    font-family: sans-serif;
+    font-size: 2.1em;
+    font-weight: 400;
+    margin-left: 35px;   
+}
+.q1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+.r{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#img14{
+    width: 600px;
+    height: 600px;
+    margin-right: 10px;
+}
+#img15{
+    width: 600px;
+    height: 600px;
+    margin-right: 10px;
+}
+#img16{
+    width: 600px;
+    height: 600px;
+}
+.s{
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1;
+}
+#p30{
+    flex: 1;
+    font-size: 1.5em;
+    font-weight: 550;
+    font-family: sans-serif;
+    display: flex;
+    padding-left: 30px;  
+}
+#p31{
+    flex: 1;
+    font-size: 1.5em;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+#p32{
+    flex: 1;
+    font-size: 1.5em;
+    font-weight: 550;
+    font-family: sans-serif;
+    color: black;
+}
+.oh{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+.oh1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1550px;
+}
+.o{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.o1{
+    background-image: url("member3.jpg");
+    width: 90%;
+    height: 600px;
+    background-size: cover;
+}
+.o2{
+    background-image: url("nike-membership\ \(1\).jpg");
+    width: 90%;
+    height: 600px;
+    background-size: cover;
+}
+.o3{
+    background-image: url("nike-basketball.jpg");
+    width: 90%;
+    height: 600px;
+    background-size: cover;
+}
+#p18{
+    padding-top: 500px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+
+}
+#p19{
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    font-weight: 550;
+
+}
+#btn5{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-left: 30px;
+}
+#p20{
+    padding-top: 500px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+
+}
+#p21{
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    font-weight: 550;
+
+}
+#btn6{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-left: 30px;
+}
+#p22{
+    padding-top: 500px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+
+}
+#p23{
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    font-weight: 550;
+
+}
+#btn7{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 550;
+    margin-left: 30px;
+}
+.p{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 300px;
+    line-height: 1;
+}
+.p th{
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-right: 300px;
+    
+}
+.p td{
+    font-size: 1.1em;
+    line-height: 1;
+    font-family: sans-serif;
+    color: gray;
+    
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: white;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding:0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-legal{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.footer-base{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (min-width:321px) {
+    .main{
+        .icon3{
+            display: none;
+        }
+        .icon4{
+            display: none;
+        }
+    }
+}
+
